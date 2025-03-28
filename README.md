@@ -1,6 +1,6 @@
 # List
 
-This reposoitory contains a example of ruby gem creation using a List as example.
+This repository contains a example of ruby gem creation using a List as example.
 
 This repository is designed for educational purposes.
 
@@ -10,7 +10,7 @@ Install the gem and add to the application's Gemfile by executing:
 
 To install gem and add this line to your application's Gemfile:
 
-    gem 'list', git: 'git://github.com/jmartinezdiz/list-gem', tag: 'X.X.X'
+    gem 'list', git: 'https://github.com/jmartinezdiz/list-gem.git', tag: 'X.X.X'
 
 And then execute:
 
@@ -18,7 +18,7 @@ And then execute:
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem 'list', git: 'git://github.com/jmartinezdiz/list-gem', tag: 'X.X.X'
+    $ gem 'list', git: 'https://github.com/jmartinezdiz/list-gem.git', tag: 'X.X.X'
 
 ## Usage
 
