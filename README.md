@@ -22,7 +22,13 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+To create a new empty List only need:
+
+    List.new
+
+To create a new List with elements:
+
+    List.new(1, 2, 3)
 
 ## Development
 

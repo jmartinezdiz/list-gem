@@ -31,7 +31,10 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'awesome_print', '>= 1.8'
+  spec.add_dependency 'awesome_print', '~> 1.8'
+  spec.add_development_dependency 'rake', '~> 13.0'
+  spec.add_development_dependency 'yard', '~> 0.9'
+  spec.add_development_dependency 'minitest', '~> 5.16'
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
